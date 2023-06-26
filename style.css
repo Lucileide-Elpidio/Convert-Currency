@@ -1,0 +1,177 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: #C590CF;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    gap: 100px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+
+}
+
+.container-right {
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    padding: 44px 24px 23px;
+    width: 375px;
+    height: 600px;
+    margin-top: 25px;
+}
+
+main {
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    padding: 12px;
+    margin: 15px auto;
+    background-color: #FFFFFF;
+}
+
+label {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+select,
+input {
+    border: 1px solid #BBBBBB;
+    height: 48px;
+    width: 100%;
+    left: 24px;
+    top: 164px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 17px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #555555;
+}
+
+
+.convert-button {
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    background: #772FD3;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.convert-buttom:hover {
+    opacity: 0.8;
+}
+
+convert-button:active {
+    opacity: 0.6;
+}
+
+
+.box-select {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.currency-to-convert,
+.currency-convert {
+    font-size: 20px;
+    color: #555555;
+}
+
+.arrow {
+    width: 35px;
+}
+
+.cipher {
+    width: 75px;
+    margin-left: 80px;
+}
+
+@media screen and (max-width:900px) {
+
+    .logo {
+        width: 200px;
+        height: 300px;
+    }
+
+
+    .box {
+        width: 90%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-right {
+        position: absolute;
+        top: 312px;
+        left: 38px;
+        width: 80%;
+        height: 80%;
+    }
+
+    main {
+        margin-top: 15px;
+        width: 90%;
+        height: 40%;
+    }
+
+    .cipher {
+        width: 55px;
+    }
+
+    .arrow {
+        width: 30px;
+
+    }
+
+    select,
+    input {
+        height: 28px;
+        width: 100%;
+        left: 14px;
+    }
+
+    .currency-to-convert,
+    .currency-convert {
+        font-size: 15px;
+    }
+
+    .convert-button {
+        width: 100%;
+        height: 35px;
+        font-size: 15px;
+    }
+}
