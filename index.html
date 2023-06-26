@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Oswald&family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <title>Convert Currency</title>
+</head>
+
+<body>
+    <div class="box">
+        <img classe="logo" src="./assets/logo-conversor.jpg" alt="logo conversor">
+
+        <section class="container-right">
+
+            <label>Converter <b>de</b></label>
+            <select>
+                <option> R$ Real brasileiro</option>
+            </select>
+
+            <label>Converter <b>para</b></label>
+            <select class="currency-select">
+                <option value="dolar">US$ Dólar americano </option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+            </select>
+
+            <label>Valor</label>
+            <input class="input-value" placeholder="R$ 10.000,00">
+
+            <button class="convert-button">Converter</button>
+
+            <main>
+                <div class="box-select">
+                    <img src="./assets/brasil.png" alt="Brasil">
+                    <p class="currency">Real</p>
+                    <img class="arrow" src="./assets/seta.png" alt="seta">
+                    <p class="currency-to-convert">R$ 0,00</p>
+                </div>
+
+                <img class="cipher" src="/assets/cifrao.gif" alt="cifrao">
+
+                <div class="box-select">
+                    <img class="currency-img" src="./assets/dolar.png" alt="Dólar">
+                    <p class="currency" id="currency-name">Dólar</p>
+                    <img class="arrow" src="./assets/seta.png" alt="seta">
+                    <p class="currency-convert">US$ 0,00</p>
+                </div>
+            </main>
+        </section>
+    </div>
+</body>
+<script src="./scipt.js"></script>
+
+</html>
