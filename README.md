@@ -1,4 +1,4 @@
-<h1 align="center">Convert Currency</h1>
+<h1 align="center">Currency Converter</h1>
 <br>
 O Conversor de Moedas é uma aplicação que permite converter valores entre diferentes moedas, incluindo Real Brasileiro (BRL), Dólar Americano (USD), Euro (EUR) e Libra Esterlina (GBP). Com taxas de câmbio atualizadas, o conversor fornece resultados precisos e em tempo real.
 
