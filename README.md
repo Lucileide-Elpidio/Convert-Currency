@@ -31,4 +31,4 @@ O Conversor de Moedas é uma aplicação que permite converter valores entre dif
 <a href="https://convert-currency-1.netlify.app/">Meu Projeto ❤️
 <br>
 <br>
-<img src="https://github.com/Lucileide-Elpidio/Convert-Currency/blob/main/assets/mockup.png?raw=true">
+<img src= "https://github.com/Lucileide-Elpidio/currency-converter/blob/main/assets/mockup.png?raw=true">
