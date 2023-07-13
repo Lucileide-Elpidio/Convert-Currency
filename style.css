@@ -14,30 +14,31 @@ body {
 
 .box {
     display: flex;
-    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
-
+    width: 250px;
+    height: 250px;
 }
 
 .container-right {
     background-color: #f3f3f3;
     border-radius: 20px;
-    padding: 44px 24px 23px;
-    width: 375px;
-    height: 600px;
+    padding: 10px 24px;
+    width: 290px;
+    height: 520px;
     margin-top: 25px;
 }
 
 main {
     border: 1px solid #772FD3;
     border-radius: 20px;
-    width: 300px;
-    height: 200px;
-    padding: 12px;
+    width: 240px;
+    height: 178px;
+    padding: 10px 10px;
     margin: 15px auto;
     background-color: #FFFFFF;
 }
@@ -48,11 +49,10 @@ label {
     font-weight: 400;
 }
 
-
 select,
 input {
     border: 1px solid #BBBBBB;
-    height: 48px;
+    height: 40px;
     width: 100%;
     left: 24px;
     top: 164px;
@@ -68,10 +68,9 @@ input {
     color: #555555;
 }
 
-
 .convert-button {
     width: 100%;
-    height: 48px;
+    height: 42px;
     border-radius: 5px;
     background: #772FD3;
     border: none;
@@ -79,7 +78,6 @@ input {
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
-
 }
 
 .convert-buttom:hover {
@@ -89,7 +87,6 @@ input {
 convert-button:active {
     opacity: 0.6;
 }
-
 
 .box-select {
     display: flex;
@@ -106,7 +103,7 @@ convert-button:active {
 
 .currency-to-convert,
 .currency-convert {
-    font-size: 20px;
+    font-size: 17px;
     color: #555555;
 }
 
@@ -115,51 +112,60 @@ convert-button:active {
 }
 
 .cipher {
-    width: 75px;
+    width: 60px;
     margin-left: 80px;
 }
 
 @media screen and (max-width:900px) {
+    body {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 
     .logo {
-        width: 200px;
-        height: 300px;
+        width: 80px;
+        height: 50px;
     }
 
 
     .box {
-        width: 90%;
-        height: 50%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        right: 50px;
+        margin: 0;
     }
 
     .container-right {
-        position: absolute;
-        top: 312px;
-        left: 38px;
-        width: 80%;
-        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 460px;
     }
 
     main {
         margin-top: 15px;
-        width: 90%;
-        height: 40%;
+        width: 250px;
+        height: 190px;
+        padding: 6px 20px;
     }
 
     .cipher {
-        width: 55px;
+        width: 50px;
     }
 
     .arrow {
         width: 30px;
-
     }
 
     select,
     input {
-        height: 28px;
+        height: 40px;
         width: 100%;
         left: 14px;
     }
@@ -171,7 +177,7 @@ convert-button:active {
 
     .convert-button {
         width: 100%;
-        height: 35px;
+        height: 40px;
         font-size: 15px;
     }
 }
